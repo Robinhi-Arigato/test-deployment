@@ -34,5 +34,9 @@
 		"typescript": "^6.0.3",
 		"typescript-eslint": "^8.60.1",
 		"vite": "^8.0.16"
+	},
+	"dependencies": {
+		"@emnapi/core": "^1.11.1",
+		"@emnapi/runtime": "^1.11.1"
 	}
 }
