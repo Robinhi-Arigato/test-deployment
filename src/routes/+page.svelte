@@ -1,1 +1,8 @@
-<h1>This is a book!</h1>
+<script lang="ts">
+	import Table from '$lib/Table.svelte';
+</script>
+
+<Table />
+<Table />
+<Table />
+<Table />

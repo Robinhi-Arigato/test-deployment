@@ -1,1 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 @import 'tailwindcss';
+
+@theme {
+	--font-Dongle: 'Dongle', sans-serif;
+	--font-Comfortaa: 'Comfortaa', sans-serif;
+	--font-Fredoka: 'Fredoka', sans-serif;
+}
+
+body {
+	@apply font-Comfortaa;
+	@apply font-light;
+}
